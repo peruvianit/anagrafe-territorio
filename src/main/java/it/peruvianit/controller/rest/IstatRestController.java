@@ -14,23 +14,23 @@ import it.peruvianit.dto.RegioneDTO;
 import it.peruvianit.service.IIstatService;
 
 @RestController
-@RequestMapping("/istat")
+@RequestMapping("/v1.0/istat")
 public class IstatRestController {
 
 	@Autowired
 	IIstatService iIstatService;
 	
-	@GetMapping(value = "/regioni", headers = "X-API-VERSION=1")
+	@GetMapping(value = "/regioni")
 	public List<RegioneDTO> listaRegioneDTO() {
 		return iIstatService.listaRegioneDTO();
 	}
 	
-	@GetMapping(value = "/provincie/{codiceRegione}", headers = "X-API-VERSION=1")
+	@GetMapping(value = "/provincie/{codiceRegione}")
 	public List<ProvinciaDTO> listaProvinciaDTO(@PathVariable("codiceRegione") String codiceRegione) {
 		return iIstatService.listaProvinciaDTO(codiceRegione);
 	}
 	
-	@GetMapping(value = "/comuni/{codiceProvincia}", headers = "X-API-VERSION=1")
+	@GetMapping(value = "/comuni/{codiceProvincia}")
 	public List<ComuneDTO> listaComuneDTO(@PathVariable("codiceProvincia") String codiceProvincia) {
 		return iIstatService.listaComuneDTO(codiceProvincia);
 	}
