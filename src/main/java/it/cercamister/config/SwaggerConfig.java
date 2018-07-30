@@ -21,7 +21,7 @@ public class SwaggerConfig {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.useDefaultResponseMessages(false)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("it.peruvianit.controller.rest"))
+				.apis(RequestHandlerSelectors.basePackage("it.cercamister.controller.rest"))
 				.paths(regex("/allenatori.*"))
 				.build()
 				.apiInfo(apiInfo());
