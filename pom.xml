@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>it.peruvianit</groupId>
+  <groupId>it.cercamister</groupId>
   <artifactId>anagrafeTerritorio</artifactId>
   <version>0.0.1-RELEASE</version>
   <name>Servizi Rest - Anagrafe Territorio Italiano</name>
@@ -75,7 +75,7 @@
 		<java.version>1.8</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<rp.build.warname>types</rp.build.warname>
-		<start-class>it.cercamister.IstatApplication</start-class>
+		<start-class>it.cercamister.AnagrafeTerritorioApplication</start-class>
 	</properties>
 
   <build>

@@ -1,0 +1,116 @@
+2018-07-30 12:57:52 - Starting AnagrafeTerritorioApplication v0.0.1-RELEASE on NBRM0071 with PID 5096 (C:\Users\Prisma\git\AnagrafeTerritorio\target\anagrafeTerritorio-0.0.1-RELEASE.jar started by Prisma in C:\Users\Prisma\git\AnagrafeTerritorio\target)
+2018-07-30 12:57:52 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-30 12:57:52 - No active profile set, falling back to default profiles: default
+2018-07-30 12:57:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-30 12:57:55 - Starting service [Tomcat]
+2018-07-30 12:57:55 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-30 12:57:55 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;.]
+2018-07-30 12:57:56 - Initializing Spring embedded WebApplicationContext
+2018-07-30 12:57:56 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$4e1ec492]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-30 12:57:56 - Stopping service [Tomcat]
+2018-07-30 12:57:56 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-30 15:26:22 - Starting AnagrafeTerritorioApplication v0.0.1-RELEASE on NBRM0071 with PID 10372 (C:\Users\Prisma\git\AnagrafeTerritorio\target\anagrafeTerritorio-0.0.1-RELEASE.jar started by Prisma in C:\Users\Prisma\git\AnagrafeTerritorio\target)
+2018-07-30 15:26:22 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-30 15:26:22 - No active profile set, falling back to default profiles: default
+2018-07-30 15:26:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-30 15:26:26 - Starting service [Tomcat]
+2018-07-30 15:26:26 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-30 15:26:26 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;.]
+2018-07-30 15:26:27 - Initializing Spring embedded WebApplicationContext
+2018-07-30 15:26:27 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$f5b31088]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-30 15:26:27 - Stopping service [Tomcat]
+2018-07-30 15:26:27 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-30 15:32:05 - Starting AnagrafeTerritorioApplication v0.0.1-RELEASE on NBRM0071 with PID 6488 (C:\Users\Prisma\git\AnagrafeTerritorio\target\anagrafeTerritorio-0.0.1-RELEASE.jar started by Prisma in C:\Users\Prisma\git\AnagrafeTerritorio\target)
+2018-07-30 15:32:05 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-30 15:32:05 - No active profile set, falling back to default profiles: default
+2018-07-30 15:32:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-30 15:32:09 - Starting service [Tomcat]
+2018-07-30 15:32:09 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-30 15:32:09 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;.]
+2018-07-30 15:32:10 - Initializing Spring embedded WebApplicationContext
+2018-07-30 15:32:10 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$564fa4d4]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-30 15:32:10 - Stopping service [Tomcat]
+2018-07-30 15:32:10 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2018-07-30 15:32:26 - Starting AnagrafeTerritorioApplication v0.0.1-RELEASE on NBRM0071 with PID 15972 (C:\Users\Prisma\git\AnagrafeTerritorio\target\anagrafeTerritorio-0.0.1-RELEASE.jar started by Prisma in C:\Users\Prisma\git\AnagrafeTerritorio\target)
+2018-07-30 15:32:26 - Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-30 15:32:26 - No active profile set, falling back to default profiles: default
+2018-07-30 15:32:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-07-30 15:32:30 - Starting service [Tomcat]
+2018-07-30 15:32:30 - Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-07-30 15:32:30 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Users\Prisma\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\OpenVPN\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Infocert\DiKe 6\RAO;C:\Program Files (x86)\Yarn\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Prisma\.m2\istallazioni\apache-maven-3.5.2\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenSSH-Win64;C:\Users\Prisma\instantclient_12_2;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Users\Prisma\AppData\Local\GitHubDesktop\bin;C:\Users\Prisma\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Heroku\bin;C:\Users\Prisma\AppData\Local\Yarn\bin;C:\Users\Prisma\AppData\Roaming\npm;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Program Files\Java\jdk1.8.0_144\bin;;.]
+2018-07-30 15:32:30 - Initializing Spring embedded WebApplicationContext
+2018-07-30 15:32:31 - Error starting Tomcat context. Exception: org.springframework.beans.factory.BeanCreationException. Message: Error creating bean with name 'servletEndpointRegistrar' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration$WebMvcServletEndpointManagementContextConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar]: Factory method 'servletEndpointRegistrar' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'healthEndpoint' defined in class path resource [org/springframework/boot/actuate/autoconfigure/health/HealthEndpointConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.health.HealthEndpoint]: Factory method 'healthEndpoint' threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration': Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.boot.actuate.autoconfigure.jdbc.DataSourceHealthIndicatorAutoConfiguration$$EnhancerBySpringCGLIB$$1e490b56]: Constructor threw exception; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2018-07-30 15:32:31 - Stopping service [Tomcat]
+2018-07-30 15:32:31 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
