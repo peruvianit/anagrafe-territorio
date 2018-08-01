@@ -14,7 +14,7 @@ import it.cercamister.dto.RegioneDTO;
 import it.cercamister.service.IIstatService;
 
 @RestController
-@RequestMapping("/territorio")
+@RequestMapping("/v1.0/territorio")
 public class IstatRestController {
 
 	@Autowired
